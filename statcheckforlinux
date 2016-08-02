@@ -1,0 +1,22 @@
+# OS-Lab-Programs
+This is where im gonna drop my lab programs.
+#include<sys/stat.h>
+#include<sys/types.h>
+#include<time.h>
+#include<stdio.h>
+int main()
+{
+	int s;
+	char source[100];
+	struct stat filstat;
+	printf(" enter the name of file \n");
+	gets(source);
+	s=stat(source,&filstat);
+	if(s!=-1)
+	   {
+		printf(" id:- %d",filstat.st_uid);
+	   }
+return 0;
+
+}
+ 		
