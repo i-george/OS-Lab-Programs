@@ -1,2 +1,2 @@
 # OS-Lab-Programs
-This is where im going to drop my lab programs.
+This is where I'm going to drop my lab programs.
